@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="container">
+		<div class="blue"></div>
+		<div class="red"></div>
+		<div class="green"></div>
+		<div class="yellow"></div>
+	</section>
+	<div class="blue2"></div>
+	<div class="yell2"></div>
+	<div class="wb"></div>
+	<div class="ws"></div>
+	<div class="wb2"></div>
+	<div class="ws2"></div>
+	<div class="wb3"></div>
+	<script src="anime.min.js"></script>
+	<script type="text/javascript">
+		var tl = anime.timeline({
+		  easing: 'easeOutExpo',
+		  loop:true,
+		  duration:500
+		});
+		tl
+		.add({
+		  targets: '.container',
+		  rotate: 0,
+		})
+		.add({
+		  targets: '.container',
+		  rotate: 90,
+		})
+		.add({
+		  targets: '.container',
+		  rotate: 180,
+		})
+		.add({
+		  targets: '.container',
+		  rotate: 270,
+		})
+		.add({
+		  targets: '.container',
+		  rotate: 360,
+		})
+		.add({
+		  targets: '.blue',
+		  scale: 1.2,
+		  duration:250,
+		})
+		.add({
+		  targets: '.blue',
+		  scale: 1,
+		  duration:250,
+		})
+		.add({
+		  targets: '.red',
+		  scale: 1.2,
+		  duration:250,
+		})
+		.add({
+		  targets: '.red',
+		  scale: 1,
+		  duration:250
+		})
+		.add({
+		  targets: '.yellow',
+		  scale: 1.2,
+		  duration:250,
+		})
+		.add({
+		  targets: '.yellow',
+		  scale: 1,
+		  duration:250
+		})
+		.add({
+		  targets: '.green',
+		  scale: 1.2,
+		  duration:250,
+		})
+		.add({
+		  targets: '.green',
+		  scale: 1,
+		  duration:250
+		})
+		.add({
+		  targets: '.blue',
+		  scale: 1.2,
+		  duration:250,
+		})
+		.add({
+		  targets: '.blue',
+		  scale: 1,
+		  duration:250,
+		})
+		.add({
+		  targets: '.red',
+		  background: '#222'
+		})
+		.add({
+		  targets: '.blue',
+		  top: '-60%',
+		  left: '-60%',
+		  duration:250
+		})
+		.add({
+		  targets: '.red',
+		  top: '-60%',
+		  left: '60%',
+		  duration:250
+		})
+		.add({
+		  targets: '.green',
+		  top: '60%',
+		  left: '-60%',
+		  duration:250
+		})
+		.add({
+		  targets: '.yellow',
+		  top: '60%',
+		  left: '60%',
+		  duration:250
+		})
+		.add({
+		  targets: '.blue2',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.wb',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.yell2',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.red',
+		  duration:350,
+		  height:'142px',
+		  width:'50px',
+		  borderRadius:'36%',
+		  background:'#222',
+		  top:'-36%',
+		  left:'60%'
+		})
+		.add({
+		  targets: '.green',
+		  duration:250,
+		  scale:0.3
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  scale:0.5
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  height:'50px',
+		  width:'50px',
+		  borderRadius:'50%',
+		  top:'41%',
+		  left:'60%'
+		})
+		.add({
+		  targets: '.yellow',
+		  duration:250,
+		  top:'158%',
+		  scale:0.7
+		})
+		.add({
+		  targets: '.ws2',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.wb2',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  background:'#fe4e4e',
+		  scale:0.7
+		})
+		.add({
+		  targets: '.wb',
+		  duration:250,
+		  background:'#bebbbb',
+		  scale:0.7
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  left:'170%'
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  scale:0.7
+		})
+		.add({
+		  targets: '.yell2',
+		  duration:250,
+		  scale:0.5
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  scale:0.5
+		})
+		.add({
+		  targets: '.wb3',
+		  duration:250,
+		  opacity:1
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  width:'190px',
+		  borderRadius:'29%',
+		  left:'-76%'
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  scale:1.8
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  width:'50px',
+		  borderRadius:'50%',
+		  left:'-163%'
+		})
+		.add({
+		  targets: '.wb3',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.green',
+		  duration:250,
+		  scale:0.8
+		})
+		.add({
+		  targets: '.ws2',
+		  duration:250,
+		  height:'145px',
+		  borderRadius:'25%'
+		})
+		.add({
+		  targets: '.wb',
+		  duration:250,
+		  scale:-0.3
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  scale:-0.3
+		})
+		.add({
+		  targets: '.wb3',
+		  duration:250,
+		  scale:0.3,
+		  background:'#00ce00',
+		  borderColor:'#00ce00'
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  top:'-60%'
+		})
+		.add({
+		  targets: '.yellow',
+		  duration:250,
+		  background:'#222'
+		})
+		.add({
+		  targets: '.ws2',
+		  duration:250,
+		  height:'50px',
+		  borderRadius:'50%'
+		})
+		.add({
+		  targets: '.wb3',
+		  duration:250,
+		  scale:0,
+		  background:'#00ce00',
+		  borderColor:'#00ce00'
+		})
+		.add({
+		  targets: '.wb2',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.yellow',
+		  duration:250,
+		  background:'#e9e974',
+		  scale:0.3
+		})
+		.add({
+		  targets: '.ws2',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  left:'60%'
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  left:'-80%',
+		  width:'190px',
+		  borderRadius:'17%'
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.yell2',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.wb',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  width:'50px',
+		  borderRadius:'50%',
+		  left:'-60%'
+		})
+		.add({
+		  targets: '.yellow',
+		  duration:250,
+		  background:'#e9e974',
+		  scale:0.7,
+		  top:'61%'
+		})
+		.add({
+		  targets: '.wb',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.ws',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.yell2',
+		  duration:250,
+		  scale:0
+		})
+		.add({
+		  targets: '.blue',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.red',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.yellow',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.green',
+		  duration:250,
+		  scale:1
+		})
+		.add({
+		  targets: '.blue2',
+		  duration:250,
+		  opacity:0
+		})
+		.add({
+		  targets: '.blue',
+		  top: '0%',
+		  left: '0%',
+		  duration:250
+		})
+		.add({
+		  targets: '.red',
+		  top: '0%',
+		  left: '0%',
+		  duration:250
+		})
+		.add({
+		  targets: '.yellow',
+		  top: '0%',
+		  left: '0%',
+		  duration:250
+		})
+		.add({
+		  targets: '.green',
+		  top: '0%',
+		  left: '0%',
+		  duration:250
+		})
+	</script>
+</body>
+</html>

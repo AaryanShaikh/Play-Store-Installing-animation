@@ -1,0 +1,137 @@
+body{
+	background: #222;
+}
+.container {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    height: 23vh;
+    width: 12vw;
+    grid-template-columns: auto auto;
+    left: 43%;
+    top: 253px;
+}
+.red{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #fe4e4e;
+	border: 10px solid #fe4e4e;
+	position: relative;
+}
+.yellow{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #e9e974;
+	border: 10px solid #e9e974;
+	position: relative;
+}
+.blue{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #00c4ff;
+	border: 10px solid #00c4ff;
+	position: relative;
+}
+.green{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #00ce00;
+	border: 10px solid #00ce00;
+	position: relative;
+}
+.blue2 {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    background: #00c4ff;
+    top: 37%;
+    left: 46%;
+    border-radius: 50%;
+    opacity: 0;
+    overflow: hidden;
+    animation: rot 5s linear infinite;
+}
+@keyframes rot{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);   
+    }
+}
+.blue2:before {
+    content: '';
+    height: 77%;
+    width: 149%;
+    background: #047ea2;
+    position: absolute;
+    top: 52%;
+    left: -26%;
+}
+.yell2 {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    background: #bebbbb;
+    border-radius: 50%;
+    top: 53%;
+    left: 47.5%;
+    opacity: 0;
+}
+.wb {
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    background: #222;
+    border-radius: 50%;
+    left: 40%;
+    border: 10px solid #bebbbb;
+    top: 38%;
+    opacity: 0;
+}
+.ws {
+    position: absolute;
+    height: 30px;
+    background: #bebbbb;
+    width: 30px;
+    border-radius: 50%;
+    left: 48%;
+    top: 28%;
+    opacity: 0;
+}
+.ws2 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: #bebbbb;
+    border-radius: 50%;
+    left: 54%;
+    top: 27%;
+    opacity: 0;
+}
+.wb2 {
+    position: absolute;
+    height: 40px;
+    background: #222;
+    width: 40px;
+    left: 54%;
+    border-radius: 50%;
+    border: 10px solid #bebbbb;
+    top: 52%;
+    opacity: 0;
+}
+.wb3 {
+    position: absolute;
+    height: 40px;
+    background: #222;
+    width: 40px;
+    left: 40.6%;
+    border-radius: 50%;
+    border: 10px solid #bebbbb;
+    top: 14%;
+    opacity: 0;
+}
